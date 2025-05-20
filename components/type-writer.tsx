@@ -10,7 +10,7 @@ export default function Typewriter() {
 
   useEffect(() => {
     typed.current = new Typed(el.current!, {
-      strings: ['&lt;igorbarr3to/&gt;'],
+      strings: ['&lt;igorbarr3to /&gt;'],
       typeSpeed: 100,
       backSpeed: 50,
       backDelay: 1000,
@@ -26,7 +26,7 @@ export default function Typewriter() {
     <span
       ref={el}
       style={{
-        fontFamily: 'monospace',
+        fontFamily: 'var(--font-jetbrains-mono)',
         fontSize: '24px',
         borderRight: '2px solid black',
         whiteSpace: 'nowrap',
