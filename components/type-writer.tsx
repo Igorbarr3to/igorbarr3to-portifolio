@@ -1,5 +1,4 @@
-// components/Typewriter.tsx
-'use client'; // se estiver usando App Router
+'use client'; 
 
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
@@ -10,7 +9,7 @@ export default function Typewriter() {
 
   useEffect(() => {
     typed.current = new Typed(el.current!, {
-      strings: ['&lt;igorbarr3to /&gt;'],
+      strings: ['&lt;igorbarr3to/&gt;'],
       typeSpeed: 100,
       backSpeed: 50,
       backDelay: 1000,
